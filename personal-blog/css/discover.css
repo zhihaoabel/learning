@@ -1,0 +1,20 @@
+.discover-title{
+    padding-top: 0;
+    padding-bottom: 1em;
+}
+
+.discover-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.discover-tags .tag {
+    color: #666;
+    background-color: rgba(107, 107, 107, .2);
+    border: 1px solid rgba(107, 107, 107, .2);
+    padding: 8px 16px;
+    border-radius: 100px;
+}

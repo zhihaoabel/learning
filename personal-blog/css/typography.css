@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+}
+
+p,
+h1,
+h2,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 18px 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    text-decoration: #111;
+    text-align: center;
+    font-family: "Crimson Pro", "Jost", Georgia, Cambria, "Times New Roman", Times, serif, sans-serif;
+}
+
+h2 {
+    padding: 14px 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: #222;
+    font-family: "Jost", "Crimson Pro", Georgia, Cambria, "Times New Roman", Times, serif, sans-serif;
+}
+
+h4 {
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    font-style: oblique 10deg;
+    font-family: "Fasthand", Cambria, Georgia, "Crimson Pro", "Jost", "Times New Roman", Times, serif, sans-serif;
+}
+
+p {
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Crimson Pro", "Jost", Georgia, Cambria, "Times New Roman", Times, serif, sans-serif;
+    line-height: 1.5em;
+}
+
+strong {
+    font-family: "Crimson Pro", "Jost", Georgia, Cambria, "Times New Roman", Times, serif, sans-serif;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+
