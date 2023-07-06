@@ -46,6 +46,7 @@ p {
     font-weight: 500;
     font-family: "Crimson Pro", "Jost", Georgia, Cambria, "Times New Roman", Times, serif, sans-serif;
     line-height: 1.5em;
+    text-indent: 1em;
 }
 
 strong {
