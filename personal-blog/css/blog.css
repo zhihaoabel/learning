@@ -1,44 +1,94 @@
-.blog-container {
-    display: flex;
-    flex: 1 0 40%;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border-radius: 8%;
-    border: 2px solid #e1fbfb;
+@import "header.css";
+@import "footer.css";
+@import "typography.css";
+@import "social-icon.css";
+
+h1 {
+    margin-top: 2rem;
+    border-top: 4px solid #1A8917;
 }
 
-.blog-container:hover {
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, .2);
+.blog-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.blog-container .blog-title {
+.blog-content-container .blog-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-content-container .blog-content {
     display: flex;
     flex-direction: column;
+    max-width: 50%;
     align-items: center;
 }
 
-.blog-container .icon-tag {
+.blog-content-container .blog-content .biography {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    color: #666;
 }
 
-.blog-container .release-date {
-    align-self: flex-end;
+.blog-content-container .blog-content .biography a.follow {
+    color: #1A8917;
+    font-size: 14px;
 }
 
-.blog-footer-container > .continue-btn {
-    color: #55ACEE;
+.blog-content-container .blog-content p {
+    text-indent: 0;
+    font-size: 18px;
 }
 
-.social-links {
+blockquote {
+    margin: 0;
+}
+
+blockquote p{
+    background: #eee2e2;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+blockquote p::before{
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 0 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::before {
+    content: '* ';
+}
+
+h2::after {
+    content: ' *';
+}
+
+.blog-footer-container {
+    margin: 20px 0;
+}
+
+.blog-footer-container .social-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-    column-gap: 5px;
-    padding: 10px 0;
+    column-gap: 15px;
 }
-
-

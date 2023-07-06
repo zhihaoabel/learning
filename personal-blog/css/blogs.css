@@ -1,0 +1,44 @@
+.blog-container {
+    display: flex;
+    flex: 1 0 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 8%;
+    border: 2px solid #e1fbfb;
+}
+
+.blog-container:hover {
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .2);
+}
+
+.blog-container .blog-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-container .icon-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-container .release-date {
+    align-self: flex-end;
+}
+
+.blog-footer-container > .continue-btn {
+    color: #55ACEE;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5px;
+    padding: 10px 0;
+}
+
+
